@@ -6,7 +6,7 @@ y = input('Enter 2nd name')
 print(y + " " + x)
 
 values = input('Enter some coma separated values')
-list = values.split(",")
+list = values.split(",")  # split values with comma
 tuple = tuple(list)
 print('List=', list)
 print('Tuple=', tuple)
